@@ -66,6 +66,11 @@ def load_and_prepare_data():
     
     return df
 
+# Replace the synthetic data creation in train_model.py with:
+def load_real_data():
+    # Download from: https://archive.ics.uci.edu/ml/datasets/Heart+Disease
+    df = pd.read_csv('heart_disease_data.csv')
+    return df
 def explore_data(df):
     """Perform exploratory data analysis"""
     print("\n=== Data Exploration ===")

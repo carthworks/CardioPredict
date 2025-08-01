@@ -1,0 +1,20 @@
+{
+  "model_type": "LogisticRegression",
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "n_features": 13,
+  "training_date": "2025-08-02T00:52:36.421563"
+}
